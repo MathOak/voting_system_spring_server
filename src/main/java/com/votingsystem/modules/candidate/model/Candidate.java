@@ -1,9 +1,8 @@
-package com.votingsystem.model;
+package com.votingsystem.modules.candidate.model;
 
 import java.util.UUID;
 
 public class Candidate {
-// Arquivo movido para modules/candidate/model/Candidate.java
     private UUID id;
     private String name;
     private String party;
